@@ -60,7 +60,7 @@ export default function Home() {
                 and metaverse.
               </div>
               <div>
-              <img type="content" maxTilt="10" parentClass="ml-0">
+              
                 <button type="button" onClick={openModal} href="mailto:hello@milangladis.com" target="_blank" className="pl-32 pr-24 h-64 text-white bg-black bg-gradient-to-br from-[#924FE7] to-[#5214E1]">
                   <span className="flex gap-8 items-center group-hover:scale-105 transition">
                     Start a chat
