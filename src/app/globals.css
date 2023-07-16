@@ -48,6 +48,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
   line-height: 1;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 ol,
 ul {
