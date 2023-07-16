@@ -40,7 +40,7 @@ export default function Home() {
       <div className="flex-1 items-center justify-center">
           <div className="flex flex-col md:flex-row promo md:mt-96 gap-64 lg:gap-96 justify-center items-center">
             <div className="relative max-w-[190px] md:max-w-[290px] mb-32 md:mb-0 ">
-              <image cursor="false" type="image" src="/images/MilanGladisProfile.png" width="290" height="407" alt="Milan Gladis - Profile"/>
+              <img type="image" src="/images/MilanGladisProfile.png" width="290" height="407" alt="Milan Gladis - Profile"/>
             </div>
 
             <div className="flex flex-col justify-center">
