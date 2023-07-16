@@ -54,22 +54,22 @@ export default function Home() {
                 </span>
               </span>
               <div className="text-18 md:text-20 mb-32 leading-16">
-                Product, Design, and Technology <Br />
-                person who builds web products <Br />
-                for 3D, AR, AI, AdTech, blockchain, <Br />
+                Product, Design, and Technology 
+                person who builds web products 
+                for 3D, AR, AI, AdTech, blockchain, 
                 and metaverse.
               </div>
               <div>
-              <RotationImage type="content" maxTilt="10" parentClass="ml-0">
-                <Button onClick={openModal} href="mailto:hello@milangladis.com" target="_blank" className="pl-32 pr-24 h-64 text-white bg-black bg-gradient-to-br from-[#924FE7] to-[#5214E1]">
+              <img type="content" maxTilt="10" parentClass="ml-0">
+                <button type="button" onClick={openModal} href="mailto:hello@milangladis.com" target="_blank" className="pl-32 pr-24 h-64 text-white bg-black bg-gradient-to-br from-[#924FE7] to-[#5214E1]">
                   <span className="flex gap-8 items-center group-hover:scale-105 transition">
                     Start a chat
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M8.82843 14.8284L11.5859 19.7467C12.005 20.4942 13.1086 20.4028 13.399 19.5966L17.9363 7.00023C18.2232 6.20399 17.4529 5.43369 16.6566 5.72051L4.06029 10.2579C3.25409 10.5483 3.1627 11.6519 3.91015 12.0709L8.82843 14.8284ZM8.82843 14.8284L10.7441 12.9127" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </span>
-                </Button>
-              </RotationImage>
+                </button>
+              </img>
               </div>
             </div>
           </div>
