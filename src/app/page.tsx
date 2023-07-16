@@ -37,39 +37,15 @@ export default function Home() {
       </div>
 
 
-      <div className="flex-1 items-center justify-center">
-          <div className="flex flex-col md:flex-row promo md:mt-96 gap-64 lg:gap-96 justify-center items-center">
-            <div className="relative max-w-[190px] md:max-w-[290px] mb-32 md:mb-0 ">
-              <img src="/images/MilanGladisProfile.png" width="290" height="407" alt="Milan Gladis - Profile"/>
-            </div>
-
-            <div className="flex flex-col justify-center">
-              <span className='block mb-16'>
-                <span className='relative text-32 md:text-40 font-bold'>
-                  Hi 👋🏻 I&apos;m Milan
-                  <span className='absolute -right-48 -top-48 flex text-14 opacity-30 font-semibold'>
-                    <svg className='relative top-[28px] mr-8' width="29" height="21" viewBox="0 0 29 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 1C15.5 1 9 5.5 3 20M3 20L1 13.5M3 20L9 17.5" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                    for real
-                  </span>
-                </span>
-              </span>
-              <div className="text-18 md:text-20 mb-32 leading-16">
-                Product, Design, and Technology 
-                person who builds web products 
-                for 3D, AR, AI, AdTech, blockchain, 
-                and metaverse.
-              </div>
-              <div>
-            
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-
-
+      <div className="my-64 md:my-96 flex flex-wrap justify-center xl:justify-between p-16 text-16">
+        <Item name="GitHub" icon="github" link="https://github.com/milangladis/" color="000000" />
+        <Item name="Linkedin" icon="linkedin" link="https://www.linkedin.com/in/milangladis/" color="2C64BC" />
+        {/* <Item name="Notion" icon="notion" link="https://blog.milangladis.com/" color="D16A5E" /> */}
+        <Item name="Dribbble" icon="dribbble" link="https://dribbble.com/milangladis" color="D85888" />
+        <Item name="Twitter" icon="twitter" link="https://twitter.com/milangladis" color="4A99E9" />
+        <Item name="ProductHunt" icon="producthunt" link="https://www.producthunt.com/@milangladis" color="FF6154" />
+        <Item name="Figma" icon="figma" link="https://www.figma.com/@milangladis" color="000000" />
+    </div>
 
       <div>
         
